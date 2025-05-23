@@ -1,0 +1,248 @@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bennett Sachs</title>
+  <meta name="description" content="Personal portfolio showcasing my coding projects and skills">
+  <link rel="stylesheet" href="styles.css">
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+
+<link rel="manifest" href="/site.webmanifest">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  
+  <div class="audio-player">
+    <button id="toggleAudio" class="audio-toggle">
+      <i class="fa-solid fa-volume-high"></i>
+    </button>
+    <div class="audio-info">Now Playing: <span id="track-name">Background Music</span></div>
+    <audio id="background-music" loop>
+      <source src="/space.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Bennett Sachs</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+    
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="name" data-text="Hello, I'm">Hello, I'm</h1>
+          <h1 class="glitch-effect" data-text="Bennett">Bennett</h1>
+          <h3 class="title">Web Developer & Creator</h3>
+          <div class="social-icons">
+            <a href="https://github.com/bennett-the-dev" target="_blank" class="social-icon github">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://tiktok.com/@beenposts" target="_blank" class="social-icon tiktok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://youtube.com/@itsbeasttime2866" target="_blank" class="social-icon youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <a href="#projects" class="btn primary-btn">View My Work</a>
+        </div>
+      </div>
+      <div class="particles-container" id="particles-js"></div>
+    </section>
+
+    
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Hello! I am a Developer focused mostly on web development, occasionally you can see me working on my python projects.</p>
+            <p>You can submit a service request by emailing The_Bennettsachs@hotmail.com!</p>
+          </div>
+          <div class="about-image">
+            <div class="image-container">
+              <img src="/images/Bennett.png" alt="Profile Picture">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-container">
+          <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+          </div>
+              <div class="skill-card">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+          </div>
+  <div class="skill-card">
+  <img src="ts.svg" alt="TypeScript" width="30" />
+  <h3>TypeScript</h3>
+</div>
+
+           <div class="skill-card">
+            <i class="fab fa-react"></i>
+            <h3>React</h3>
+        </div>
+<div class="skill-card">
+            <i class="fab fa-github"></i>
+            <h3>Git & GitHub</h3>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          
+          <div class="project-card">
+            <div class="project-img">
+              <img src="https://bennettsbaldhead.org/bennett.png" alt="Bennettsbaldhead">
+            </div>
+            <div class="project-info">
+              <h3>Bennettsbaldhead</h3>
+              <p>Bennetts bald head is a meme website i made, its just a joke with a cool 404 page.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="//bennettsbaldhead.org" target="_blank" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="//github.com/bennett-the-dev/bennettsbaldhead" target="_blank" class="project-link">
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+         
+                    <div class="project-card">
+            <div class="project-img">
+              <img src="/favicon.ico" alt="Portfolio">
+            </div>
+            <div class="project-info">
+              <h3>My Portfolio</h3>
+              <p>This is the website you are on! this took me many hours to make.</p>
+              <div class="project-tags">
+                <span>TypeScript</span>
+                <span>React</span>
+                <span>CSS</span>
+                <span>HTML</span>
+              </div>
+              <div class="project-links">
+                <a href="/" target="_blank" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="https://github.com/bennett-the-dev/Portfolio" target="_blank" class="project-link">
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="https://via.placeholder.com/600x400" alt="Project 3">
+            </div>
+            <div class="project-info">
+              <h3>Project Three Coming soon</h3>
+              <p>project 3</p>
+              <div class="project-tags">
+                <span>language</span>
+                <span>language</span>
+                <span>language</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" target="_blank" class="project-link">
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; <span id="year"></span> BENNETT SACHS. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script type="module" src="/main.ts"></script>
+</body>
+
+</html>
