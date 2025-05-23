@@ -1,4 +1,5 @@
 
+
 const audioPlayer = document.getElementById('background-music') as HTMLAudioElement;
 const toggleAudioBtn = document.getElementById('toggleAudio') as HTMLButtonElement;
 const audioIcon = toggleAudioBtn.querySelector('i') as HTMLElement;
