@@ -1,4 +1,3 @@
-
 :root {
   --primary-color: #6c5ce7;
   --primary-color-dark: #5648d0;
@@ -73,6 +72,9 @@ section {
   height: 48px;
   margin-bottom: 12px;
   object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-title {
